@@ -28,7 +28,7 @@ public class ConstructorExample {
     public static void main(String[] args) {
         Student st = new Student() ;
         System.out.println( st.id  + "  " + st.name + " " + st.age);
-
+ 
         Student stt = new Student(12,"Krishna",90) ;
         System.out.println( stt.id  + "  " + stt.name + " " + stt.age);
     }
